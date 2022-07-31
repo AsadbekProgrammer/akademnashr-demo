@@ -1,5 +1,8 @@
 body {
-  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  font-family: "Roboto", "Arial", sans-serif;
 }
 
 /* SITE HEADER */
@@ -29,7 +32,6 @@ body {
   font-weight: 700;
   font-size:13px;
   line-height: 15px;
-  letter-spacing: 0.5px;
   color:#fff;
   text-decoration: none;
   background-color: #ff7500;
@@ -53,10 +55,9 @@ body {
 }
 
 .hero-heading {
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Roboto Condensed", "Roboto", "Arial", sans-serif;
   font-size: 40px;
   line-height: 1.2;
-  letter-spacing: 0.5px;
 }
 
 .hero-img {
@@ -64,20 +65,13 @@ body {
   height: 510px;
 }
 
-.hero-text {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.5px;
-}
-
 /* FEATURES */
 
 .features-heading {
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Roboto Condensed", "Roboto", "Arial", sans-serif;
   width:440px;
   font-size: 72px;
   line-height: 1.2;
-  letter-spacing: 0.5px;
 }
 
 .feature-icon-wrapper {
@@ -92,17 +86,10 @@ body {
   width: 340px;
 }
 
-.feaute-title {
-  font-family: "Roboto Condensed", sans-serif;
+.feature-title {
+  font-family: "Roboto Condensed", "Roboto", "Arial", sans-serif;
   font-size: 24px;
   line-height: 1.2;
-  letter-spacing: 0.5px;
-}
-
-.feature-info {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.5px;
 }
 
 /* PROMO */
@@ -117,14 +104,9 @@ body {
 }
 
 .promo-heading {
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Roboto Condensed", "Roboto", "Arial", sans-serif;
   font-size: 40px;
   line-height: 48px;
-}
-
-.promo-text {
-  font-size: 16px;
-  line-height: 1.5;
 }
 
 .promo-highlight {
@@ -154,11 +136,10 @@ body {
 
 .site-footer-links {
   width: 224px;
+  line-height: 19px;
 }
 
 .site-footer-links a{
-  font-size: 16px;
-  line-height: 19px;
   text-decoration: none;
   color:#252420;
 }
