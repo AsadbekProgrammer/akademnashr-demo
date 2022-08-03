@@ -8,13 +8,13 @@ body {
 /* SITE HEADER */
 .site-header {
   display:flex;
+  justify-content: space-between;
   align-items:center;
   background-color: #fff;
 }
 
 .site-header-actions {
   display:flex;
-  justify-content: space-between;
   align-items:center;
 }
 
